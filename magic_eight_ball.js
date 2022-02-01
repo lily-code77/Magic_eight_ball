@@ -1,9 +1,13 @@
+//name of a user.
 let userName = '';
+
 //the question the user wants to ask the Magic Eight Ball.
 let userQuestion = '';
+
 //Generates a random number between 0 and 7.
 let randomNumber = Math.floor(Math.random() * 8);
-//
+
+//Stores answer from the eight ball.
 let eightBall = '';
 
 userName === 'Jane' ? console.log('Hello, Jane!') : console.log('Hello!');
